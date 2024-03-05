@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+ .cont{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items:center;
+   gap:2%;
+   margin-top:6px;
+ }
+ 
+ .cont input{
+   border:none;
+   border-bottom:1px solid gray;
+ }
+ 
+ .cont input:focus{
+   outline:none;
+ }
+ 
+ .cont button{
+   border:1px solid transparent;
+   border-radius:2px;
+   padding:5px 5px;
+   background:linear-gradient(135deg, gold, silver, gray);
+ }
+ 
+ .cont button:active{
+   box-shadow:0px 3px 5px black;
+   transition: 0.1s;
+ }

@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.cont{
+  display:flex;
+  flex-direction: row;
+  width:300px;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  margin-top:12px;
+  gap:2%;
+}
+.cont input{
+  border:none;
+  border-bottom:1px solid gray;
+}
+.cont input:focus{
+  outline:none;
+}
+
+.cont button:active{
+  box-shadow:0px 2px 4px black;
+  transition: 0.3s;
+}
+
+.cont button{
+  border:1px solid transparent;
+  padding:5px 5px;
+  border-radius:2px;
+  background:linear-gradient(134deg, silver, gray, gold);
+}
+
+.res{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding-top:100px;
+  font-weight: bold;
+}
